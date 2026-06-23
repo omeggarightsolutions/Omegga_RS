@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://omegga-rs.vercel.app//sitemap.xml
