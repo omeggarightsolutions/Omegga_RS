@@ -16,13 +16,26 @@
 {
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
+  "@id": "https://omegga-rs.vercel.app/#organization",
+
   "name": "Omegga Right Solutions",
-  "url": "https://omegga-rs.vercel.app",
+  "url": "https://omegga-rs.vercel.app/",
   "logo": "https://omegga-rs.vercel.app/Images/Logo.png",
   "image": "https://omegga-rs.vercel.app/Images/Logo.png",
-  "description": "Omegga Right Solutions provides product design, CAD modelling, industrial automation, special purpose machine design, reverse engineering and engineering consultancy.",
+
+  "description": "Omegga Right Solutions provides product design, CAD modelling, industrial automation, special purpose machine design, reverse engineering, engineering consultancy, manufacturing support and product development services.",
+
   "telephone": "+91-8667512745",
   "email": "omegga.rightsolutions@gmail.com",
+
+  "priceRange": "₹₹",
+
+  "foundingDate": "2025",
+
+  "brand": {
+    "@type": "Brand",
+    "name": "Omegga Right Solutions"
+  },
 
   "address": {
     "@type": "PostalAddress",
@@ -33,10 +46,44 @@
     "addressCountry": "IN"
   },
 
-  "areaServed":"Worldwide",
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "11.1640",
+    "longitude": "77.0140"
+  },
+
+  "areaServed": {
+    "@type": "Place",
+    "name": "Worldwide"
+  },
 
   "openingHours": [
     "Mo-Sa 08:00-17:00"
+  ],
+
+  "serviceType": [
+    "Product Design",
+    "Industrial Design",
+    "CAD Modelling",
+    "Mechanical Engineering",
+    "Industrial Automation",
+    "Special Purpose Machine Design",
+    "Reverse Engineering",
+    "Engineering Consultancy",
+    "Manufacturing Support"
+  ],
+
+  "keywords": [
+    "Product Design",
+    "Industrial Design",
+    "CAD Design",
+    "Mechanical Design",
+    "Machine Design",
+    "Industrial Automation",
+    "SPM Design",
+    "Reverse Engineering",
+    "Engineering Consultancy",
+    "Manufacturing Support"
   ],
 
   "founder": {
@@ -47,7 +94,8 @@
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91-8667512745",
-    "contactType": "customer support",
+    "contactType": "Customer Support",
+    "areaServed": "Worldwide",
     "availableLanguage": [
       "English",
       "Tamil"
@@ -73,6 +121,13 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
+          "name": "CAD Modelling"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
           "name": "Industrial Automation"
         }
       },
@@ -88,6 +143,13 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Reverse Engineering"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Engineering Consultancy"
         }
       }
     ]
